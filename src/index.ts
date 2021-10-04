@@ -12,9 +12,15 @@ const ticket = 'f458732383d032fe0a479dea5e134da634c557e8d50f69621ce3f7fbd34f84c6
 
   // read out the parameter with the specific name
   const lengthParameter = session.getParameterByName('Length')[0];
+  
   // update the value
   lengthParameter.value = 6;
   // and customize the scene
+  await session.customize();
+  console.log(lengthParameter.value);
+
+  
+  lengthParameter.value = 3;
   await session.customize();
   console.log(lengthParameter.value);
 })();
