@@ -32,17 +32,33 @@ const ticket = '31c5a58b82869d47e63e72cc6db96df36d1f190c352beb3b2fe2ae3585d3d86c
   var rangeValue = document.getElementById("rangeValue")
   var newLoad = input.value
 
-  input.addEventListener("input", async()=>{
+  
+
+  const updateSliderValue = async()=>{
     rangeValue.innerHTML = input.value
     newLoad = input.value
     console.log(input.value);
     loadParameter.value = newLoad
   // and customize the scene
     await session.customize();
-  })
-  
+  };
 
+  const updateSliderValueHandler = throttled(1000, updateSliderValue);
+  input.addEventListener("input", updateSliderValueHandler)
+
+  
+  
   // console.log(colorParameter.value);
 })();
 
-
+function throttled(delay, fn) {
+  let lastCall = 0;
+  return function (...args) {
+    const now = (new Date).getTime();
+    if (now - lastCall < delay) {
+      return;
+    }
+    lastCall = now;
+    return fn(...args);
+  }
+}
