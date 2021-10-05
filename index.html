@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <div style="width: 800px; height: 600px;">
+    <div id="container">
         <canvas id="canvas"></canvas>
+    </div>
+    <div>
+        <label id="loadDisp" for="load"> Load </label>
+        <input type="range" id="load" min="0" max="10" step="0.01" value="5" onchange="rangeValue.value=value">
+        <span id="rangeValue">1</span>
+        
     </div>
     <script type="module" src="./dist/bundle.js"></script>
 </body>
