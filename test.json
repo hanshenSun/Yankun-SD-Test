@@ -1,0 +1,508 @@
+{
+    "attributes": [
+        {
+            "Id": {
+                "value": "f745a5b7-bffe-486c-850b-f67d39116f56",
+                "typeHint": 1
+            },
+            "Name": {
+                "value": "Mesh",
+                "typeHint": 1
+            },
+            "Type": {
+                "value": "Mesh",
+                "typeHint": 1
+            }
+        },
+        {
+            "Id": {
+                "value": "1607ad47-de8a-409e-a366-b84df24216ea",
+                "typeHint": 1
+            },
+            "Name": {
+                "value": "Mesh",
+                "typeHint": 1
+            },
+            "Type": {
+                "value": "Mesh",
+                "typeHint": 1
+            }
+        }
+    ],
+    "typeHints": [
+        {
+            "name": "rhino.mesh"
+        },
+        {
+            "name": "string"
+        }
+    ],
+    "chunks": [
+        {
+            "name": "f745a5b7-bffe-486c-850b-f67d39116f56",
+            "nodes": [
+                0
+            ],
+            "typeHint": 0,
+            "attributes": 0
+        },
+        {
+            "name": "1607ad47-de8a-409e-a366-b84df24216ea",
+            "nodes": [
+                1
+            ],
+            "typeHint": 0,
+            "attributes": 1
+        }
+    ],
+    "nodes": [
+        {
+            "name": "[0]",
+            "items": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "typeHint": 0
+        },
+        {
+            "name": "[0,0]",
+            "items": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+            ],
+            "typeHint": 0
+        }
+    ],
+    "items": [
+        {
+            "accessor": 0,
+            "typeHint": 0
+        },
+        {
+            "accessor": 1,
+            "typeHint": 0
+        },
+        {
+            "accessor": 2,
+            "typeHint": 0
+        },
+        {
+            "accessor": 3,
+            "typeHint": 0
+        },
+        {
+            "accessor": 4,
+            "typeHint": 0
+        },
+        {
+            "accessor": 5,
+            "typeHint": 0
+        },
+        {
+            "accessor": 6,
+            "typeHint": 0
+        },
+        {
+            "accessor": 7,
+            "typeHint": 0
+        },
+        {
+            "accessor": 8,
+            "typeHint": 0
+        },
+        {
+            "accessor": 9,
+            "typeHint": 0
+        },
+        {
+            "accessor": 10,
+            "typeHint": 0
+        },
+        {
+            "accessor": 11,
+            "typeHint": 0
+        },
+        {
+            "accessor": 12,
+            "typeHint": 0
+        },
+        {
+            "accessor": 13,
+            "typeHint": 0
+        },
+        {
+            "accessor": 14,
+            "typeHint": 0
+        },
+        {
+            "accessor": 15,
+            "typeHint": 0
+        },
+        {
+            "accessor": 16,
+            "typeHint": 0
+        },
+        {
+            "accessor": 17,
+            "typeHint": 0
+        },
+        {
+            "accessor": 18,
+            "typeHint": 0
+        },
+        {
+            "accessor": 19,
+            "typeHint": 0
+        },
+        {
+            "accessor": 20,
+            "typeHint": 0
+        },
+        {
+            "accessor": 21,
+            "typeHint": 0
+        },
+        {
+            "accessor": 22,
+            "typeHint": 0
+        },
+        {
+            "accessor": 23,
+            "typeHint": 0
+        },
+        {
+            "accessor": 24,
+            "typeHint": 0
+        },
+        {
+            "accessor": 25,
+            "typeHint": 0
+        },
+        {
+            "accessor": 26,
+            "typeHint": 0
+        },
+        {
+            "accessor": 27,
+            "typeHint": 0
+        },
+        {
+            "accessor": 28,
+            "typeHint": 0
+        },
+        {
+            "accessor": 29,
+            "typeHint": 0
+        },
+        {
+            "accessor": 30,
+            "typeHint": 0
+        },
+        {
+            "accessor": 31,
+            "typeHint": 0
+        },
+        {
+            "accessor": 32,
+            "typeHint": 0
+        },
+        {
+            "accessor": 33,
+            "typeHint": 0
+        },
+        {
+            "accessor": 34,
+            "typeHint": 0
+        },
+        {
+            "accessor": 35,
+            "typeHint": 0
+        },
+        {
+            "accessor": 36,
+            "typeHint": 0
+        },
+        {
+            "accessor": 37,
+            "typeHint": 0
+        },
+        {
+            "accessor": 38,
+            "typeHint": 0
+        },
+        {
+            "accessor": 39,
+            "typeHint": 0
+        },
+        {
+            "accessor": 40,
+            "typeHint": 0
+        },
+        {
+            "accessor": 41,
+            "typeHint": 0
+        },
+        {
+            "accessor": 42,
+            "typeHint": 0
+        },
+        {
+            "accessor": 43,
+            "typeHint": 0
+        },
+        {
+            "accessor": 44,
+            "typeHint": 0
+        },
+        {
+            "accessor": 45,
+            "typeHint": 0
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "id": "6c49250e-29d3-48fe-87d5-2b524d15f467"
+        },
+        {
+            "bufferView": 0,
+            "id": "85a1f38f-d38f-4fd1-a5a8-f7fe755c7da0"
+        },
+        {
+            "bufferView": 0,
+            "id": "3d78adf6-9ee4-4b0d-8ad2-4f63d326541c"
+        },
+        {
+            "bufferView": 0,
+            "id": "e5866e08-ae2b-4e49-8aab-833a842b59f6"
+        },
+        {
+            "bufferView": 0,
+            "id": "9e952d70-464a-4ff0-84db-72ec6c2b004d"
+        },
+        {
+            "bufferView": 0,
+            "id": "cdc67c3b-55fb-4d7e-b008-20e4e8f3f7b3"
+        },
+        {
+            "bufferView": 0,
+            "id": "d25c55d2-f6b7-47d2-be6c-3417c9200fb5"
+        },
+        {
+            "bufferView": 0,
+            "id": "45dbd880-8e59-4e73-8c78-a0ae35d6ec9a"
+        },
+        {
+            "bufferView": 0,
+            "id": "03f2d576-594c-4d9c-b956-ee5c7cdf3e93"
+        },
+        {
+            "bufferView": 0,
+            "id": "670e3e52-0be5-4488-8a04-e41e9aeced36"
+        },
+        {
+            "bufferView": 0,
+            "id": "80124121-89e3-44e2-bdb4-882321063f8d"
+        },
+        {
+            "bufferView": 0,
+            "id": "1d2eac8c-45f3-4370-919f-03e45908bd31"
+        },
+        {
+            "bufferView": 0,
+            "id": "b13770de-48ab-47c8-993d-cd846640abb4"
+        },
+        {
+            "bufferView": 0,
+            "id": "401c1dc3-e2ad-407c-89ff-e3c816459aad"
+        },
+        {
+            "bufferView": 0,
+            "id": "384c5145-50e8-4965-a38d-74f9617e4065"
+        },
+        {
+            "bufferView": 0,
+            "id": "43bf1848-1a60-49a1-88ce-790a058ac25a"
+        },
+        {
+            "bufferView": 0,
+            "id": "98106228-1d6a-464d-81c0-406cd03f5e9c"
+        },
+        {
+            "bufferView": 0,
+            "id": "7b41f1ba-e714-4b0f-b488-5aedb6cdaf11"
+        },
+        {
+            "bufferView": 0,
+            "id": "8a0d907b-662c-4f74-96fc-a0adef1c0028"
+        },
+        {
+            "bufferView": 0,
+            "id": "1c7420b8-b54f-4644-a05e-d3786a61c58a"
+        },
+        {
+            "bufferView": 0,
+            "id": "448e5938-b304-41e8-aa6d-a1c729c6d188"
+        },
+        {
+            "bufferView": 0,
+            "id": "96296024-c9df-402c-bea6-8a9b2e5db0e0"
+        },
+        {
+            "bufferView": 0,
+            "id": "762e1b66-6af2-40c0-95b4-4497512b6f36"
+        },
+        {
+            "bufferView": 0,
+            "id": "e28375d3-b7a5-4e38-adae-704ed98c24fb"
+        },
+        {
+            "bufferView": 0,
+            "id": "b49d31df-d8cc-4790-b80e-caf3eb098b02"
+        },
+        {
+            "bufferView": 0,
+            "id": "193ad28e-632d-498d-9e6a-f13528e30570"
+        },
+        {
+            "bufferView": 0,
+            "id": "52626897-82b3-4372-b997-da28347edae2"
+        },
+        {
+            "bufferView": 0,
+            "id": "656ca7b5-744b-4ba1-a449-c21b52ef5df5"
+        },
+        {
+            "bufferView": 0,
+            "id": "2602bb62-c7d3-40b3-b6fe-725597afd7fc"
+        },
+        {
+            "bufferView": 0,
+            "id": "1ed648b3-a01b-4a7f-b66c-200b8e72f738"
+        },
+        {
+            "bufferView": 0,
+            "id": "edb2db5d-ba2b-4174-ac99-065476b8f055"
+        },
+        {
+            "bufferView": 0,
+            "id": "e1a98f41-f5b9-40ba-9ab9-163b6b2cd1af"
+        },
+        {
+            "bufferView": 0,
+            "id": "2f47c6d1-3427-468a-8c96-7feca1c2bd11"
+        },
+        {
+            "bufferView": 0,
+            "id": "064773f6-0e9e-482f-bccf-1c710af989cb"
+        },
+        {
+            "bufferView": 0,
+            "id": "4d287880-c359-4644-83e7-0bf0f66e3a57"
+        },
+        {
+            "bufferView": 0,
+            "id": "aa90e822-a08c-4546-9673-0cf75b16f6d5"
+        },
+        {
+            "bufferView": 0,
+            "id": "2fa13d90-ea63-4716-bfaf-c3f4941632d8"
+        },
+        {
+            "bufferView": 0,
+            "id": "acc7a16b-c773-4b62-b0b4-c8e9daef511b"
+        },
+        {
+            "bufferView": 0,
+            "id": "f6cfba0a-408f-4176-9606-7fc01ce85008"
+        },
+        {
+            "bufferView": 0,
+            "id": "93e4cec0-f99e-4404-ac4b-82ce1d6c4eeb"
+        },
+        {
+            "bufferView": 0,
+            "id": "cb96733a-92d7-423a-b222-baec39b999c6"
+        },
+        {
+            "bufferView": 0,
+            "id": "f453f917-7d06-4ed6-95f7-14efce9cfb64"
+        },
+        {
+            "bufferView": 0,
+            "id": "0c1e4809-452a-4538-a888-0cb84692b9d9"
+        },
+        {
+            "bufferView": 0,
+            "id": "bca16d95-cbc6-4eee-8ac8-4dbee91d5697"
+        },
+        {
+            "bufferView": 0,
+            "id": "106157ec-dc51-4f56-a0ca-6843697c98a4"
+        },
+        {
+            "bufferView": 0,
+            "id": "9114a042-0fc0-4ac7-8490-3efc26fd39b6"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 134179,
+            "contentType": "model/vnd.3dm",
+            "contentEncoding": "gzip"
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 134179
+        }
+    ],
+    "asset": {
+        "generator": "ShapeDiverSdtfWriter",
+        "version": "1.0"
+    }
+}

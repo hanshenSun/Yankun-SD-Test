@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <body>
     <div id="container">
         <canvas id="canvas"></canvas>
     </div>
     <div>
+        <p>
+
+        </p>
+    </div>
+    <div>
+        <label for="columnType">Top chord cross section name: </label>
+        <input type="text" id="columnType">
+        <input type="button" onclick="crossSection()" value="Enter" id="enter_col"></input>
+    </div>
+    <div>
+        <p id="selectColumn"></p>
+    </div>
+    <div>
         <label id="loadDisp" for="load"> Load </label>
-        <input type="range" id="load" min="0" max="10" step="0.01" value="5" onchange="rangeValue.value=value">
-        <span id="rangeValue">1</span>
-        
+        <input type="range" id="load" min="0" max="10" step="0.01" value="5">
+        <span id="rangeValue"></span>
+    </div>
+    <div>
+        <label id="lengthDisp" for="length"> Length </label>
+        <input type="range" id="length" min="1" max="25" step="0.01" value="15">
+        <span id="lengthValue"></span>
+    </div>
+    <div>
+        <label id="widthDisp" for="width"> Height </label>
+        <input type="range" id="width" min="1" max="25" step="0.01" value="5">
+        <span id="widthValue"></span>
+    </div>
+    <div>
+        <label id="numPosts" for="posts"> Number of Posts </label>
+        <input type="range" id="posts" min="1" max="6" step="1" value="3">
+        <span id="postsValue"></span>
+    </div>
+    <div>
+        <label id="ddDisp" for="ddInput">Select Test Case</label>
+        <select id="ddInput">
+            <option value="Cross Section">Cross Section</option>
+            <option value="Axial Stress">Axial Stress</option>
+            <option value="Utilization">Utilization</option>
+            <option value="Displacement">Displacement</option>
+        </select>
+    </div>
+    <div>
+        <p></p>
+    </div>
+    <div>
+        <label for="loadInputText">Load Input: </label>
+        <input type="text" id="loadInputText">
+        <input type="button" onclick="printResult()" value="Download" id="enter"></input>
     </div>
     <script type="module" src="./dist/bundle.js"></script>
 </body>
+
 </html>
